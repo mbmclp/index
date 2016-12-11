@@ -6,7 +6,7 @@
       "name": "mobirise3",
       "title": "Mobirise 3",
       "styling": {
-        "primaryColor": "#c0a375",
+        "primaryColor": "#ff9800",
         "secondaryColor": "#bfcecb",
         "successColor": "#90a878",
         "infoColor": "#7e9b9f",
@@ -15,7 +15,7 @@
         "titleFont": "Montserrat",
         "subtitleFont": "Lora",
         "textFont": "Raleway",
-        "isRoundedButtons": false,
+        "isRoundedButtons": true,
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": false
       }
@@ -145,6 +145,11 @@
             "Theme"
           ],
           "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          },
           "_anchor": "form1-4",
           "_params": {
             "labelsColor": "#232323",
@@ -190,12 +195,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-warning\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(255, 255, 255);\"></span>SUBMIT COMPLAINT</a>",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#232323"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-warning\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\"><span class=\"mbri-like mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(255, 255, 255);\"></span>SUBMIT COMPLAINT</a>"
         }
       ]
     },
@@ -316,6 +316,11 @@
             "Theme"
           ],
           "_name": "contacts1",
+          "_styles": {
+            "P": {
+              "text-align": "left"
+            }
+          },
           "_anchor": "contacts1-b",
           "_params": {
             "paddingTop": 3,
@@ -347,12 +352,7 @@
           },
           "text1": "<strong>Address</strong><br>5/4,Rajiv Gandhi Nagar,Penkarpada,Mira Road-(E),Thane-401107",
           "text2": "<strong>Contacts</strong><br>\nEmail: rdpatil199@gmail.com<br>\nPhone: +91 9004329446<br>WhatsApp No:-9004329446",
-          "text3": "",
-          "_styles": {
-            "P": {
-              "text-align": "left"
-            }
-          }
+          "text3": ""
         }
       ]
     },
@@ -544,7 +544,9 @@
               "color": "#ffffff"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "font-family": "'Oswald', sans-serif"
             },
             ".link": {
               "font-size": "0.75rem"
@@ -556,13 +558,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
+              "background": "#171c2c"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
+              "background": "#232c44!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
+              "background": "#28324e"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -591,22 +593,25 @@
           "_name": "menu",
           "_anchor": "menu-0",
           "_params": {
-            "bgColor": "#282828",
+            "bgColor": "#28324e",
             "fontSize": 0.75,
-            "fontName": {},
+            "fontName": {
+              "name": "Oswald",
+              "url": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "css": "'Oswald', sans-serif"
+            },
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
-            "transparent": true,
+            "transparent": false,
             "sticky": true,
             "logo": true,
             "showBrand": true,
-            "collapsed": true,
+            "collapsed": false,
             "hideButtons": false
           },
           "logo": {
             "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/jellyfish-170x128-31.jpg",
+              "src": "@PROJECT_PATH@/assets/images/logo-1481446559235-143x128-53.png",
               "height": 128,
               "alt": "Mbmc Lp",
               "link": "#top",
@@ -615,22 +620,46 @@
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "dial",
+              "family": "et-line",
               "link": "https://mobirise.com",
-              "size": 0
+              "size": 0,
+              "active": true
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MBMC LIGHT POLE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OVERVIEW</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"mv\" aria-expanded=\"false\">Map View</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">पेणकरपाडा </a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(255, 255, 255);\"></span>मुख्य पान</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"mv\" aria-expanded=\"false\"><span class=\"mbri-map-pin mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(250, 197, 28);\"></span>पेणकरपाडाचा नकाशा</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\"><span class=\"mbri-paper-plane mbr-iconfont mbr-iconfont-btn\"></span>HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"><span class=\"etl-icon icon-edit mbr-iconfont mbr-iconfont-btn\"></span>संपर्क&nbsp;सादा </a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\"></a></li>"
         },
         {
           "_name": "header1",
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_styles": {
+            ".mbr-section-title DIV": {
+              "text-align": "center"
+            },
+            ".mbr-section-title SPAN": {
+              "text-align": "right",
+              "font-size": "12px"
+            },
+            ".mbr-section-title": {
+              "font-size": "100px"
+            },
+            ".btn": {
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "font-size": "100px"
+            },
+            "SPAN": {
+              "font-size": "30px"
+            }
+          },
           "_anchor": "header1-1",
           "_params": {
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/lighthouse-2000x1500-43.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/6818407-aqua-wallpaper-2000x1250-75.jpg",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
@@ -645,14 +674,9 @@
             "showText": true,
             "showButtons": true
           },
-          "title": "।।shree।।<br><div>Helping people</div>",
-          "text": "God is creator we are just helping to give benefits for people who are living in darkness as they have service available but no one know how to get best service,for that purpose we are make in india system to get online system.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"Complaint Form\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CLICK TO COMPLAINT</a>  ",
-          "_styles": {
-            ".mbr-section-title DIV": {
-              "text-align": "center"
-            }
-          }
+          "title": "<br>।।श्री ।।<br>❝देशाने माझ्यासाठी काय केले हे म्हणया पेक्षा,मिने देशासाठी काय केले हे म्हत्वाचा आहे.❞",
+          "text": "",
+          "buttons": "  <a data-app-btn=\"true\" class=\"btn btn-lg btn-black\" href=\"www.lightpole.site88.net\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-idea mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(255, 255, 255);\"></span>लाईट पोल समस्या निवारण</a>   "
         },
         {
           "_name": "footer1",
