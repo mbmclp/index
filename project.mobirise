@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "1.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -21,7 +21,7 @@
       }
     },
     "versionFirst": "3.10.3",
-    "uniqCompNum": 3,
+    "uniqCompNum": 7,
     "versionPublish": "3.10.3"
   },
   "pages": {
@@ -127,9 +127,30 @@
             "Theme"
           ],
           "_name": "testimonials1",
+          "_styles": {
+            ".card-block DIV": {
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "text-align": "center",
+              "color": "#7c706b"
+            },
+            ".card-block SPAN": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "text-align": "center"
+            },
+            ".card-block P": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "text-align": "right"
+            },
+            ".mbr-section-title": {
+              "color": "#f28281"
+            }
+          },
           "testimonial": [
             {
-              "text": "<span style=\"font-style: normal; font-size: 1.125rem; line-height: 2;\">संपर्क:-९००४३२९४४६ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><div><span style=\"font-style: normal;\">अधिक माहिती:- शिक्षण</span><span style=\"font-family: 'Open Sans', sans-serif; font-size: 1.125rem; line-height: 2;\">&nbsp;</span></div>",
+              "text": "<p><span style=\"font-style: normal; font-size: 1.125rem; line-height: 2;\">संपर्क:-९००४३२९४४६</span></p><p><span style=\"font-style: normal; font-size: 1.125rem; line-height: 2;\"><br></span><span style=\"font-size: 1.125rem; line-height: 2; color: rgb(124, 112, 107); font-style: normal;\">अधिक माहिती:- शिक्षण</span><span style=\"font-size: 1.125rem; line-height: 2; color: rgb(124, 112, 107); font-family: 'Open Sans', sans-serif;\">&nbsp;</span></p>",
               "media": {
                 "image": {
                   "src": "@PROJECT_PATH@/assets/images/picsart-1427622041042-90x160-80.jpg",
@@ -147,7 +168,7 @@
               "authorBio": "\"\""
             },
             {
-              "text": "<p><span style=\"font-style: normal;\"><span style=\"font-family: Lora, serif; font-size: 1.125rem; line-height: 2;\">संपर्क:-७०५७४०००१५ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><span style=\"font-family: Lora, serif; font-size: 1.125rem; line-height: 2;\">अधिक माहिती:- शिक्षण /काम</span></span></p>",
+              "text": "<p><span style=\"font-style: normal;\"><span style=\"font-family: Lora, serif; font-size: 1.125rem; line-height: 2;\">संपर्क:-७०५७४०००१५</span></span></p><p><span style=\"font-style: normal;\"><span style=\"font-family: Lora, serif; font-size: 1.125rem; line-height: 2;\"><br></span><span style=\"font-family: Lora, serif; font-size: 1.125rem; line-height: 2;\">अधिक माहिती:- शिक्षण/काम</span></span></p>",
               "media": {
                 "image": {
                   "src": "@PROJECT_PATH@/assets/images/pp-160x160-95.jpg",
@@ -165,7 +186,7 @@
               "authorBio": "\"\""
             },
             {
-              "text": "<p>संपर्क:- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;९२२२०९०७७०</p><p>                     अधिक माहिती:-&nbsp;<span style=\"font-size: 1.125rem; line-height: 2;\">गृहिणी</span></p>",
+              "text": "<p>संपर्क:-९२२२०९०७७०</p><p><span style=\"font-size: 1.125rem; line-height: 2;\">अधिक माहिती:-&nbsp;</span><span style=\"font-size: 1.125rem; line-height: 2;\">गृहिणी</span></p>",
               "media": {
                 "image": {
                   "src": "@PROJECT_PATH@/assets/images/untitled-143x160-4.png",
@@ -185,37 +206,191 @@
           ],
           "_anchor": "testimonials1-1",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "count": 3,
+            "showImages": true,
+            "showName": true,
+            "showBio": true,
             "bgImageRadio": false,
             "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/6818407-aqua-wallpaper-2000x1250-67.jpg",
             "bgColor": "#fff",
             "bgColorRadio": true,
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
             "showTitle": true,
-            "showSubtitle": true,
-            "count": 3,
-            "showImages": true,
-            "showName": true,
-            "showBio": true
+            "showSubtitle": true
           },
           "title": "आपले कुंटुंब",
-          "subtitle": "\"\"",
+          "subtitle": "\"\""
+        }
+      ]
+    },
+    "1.html": {
+      "settings": {},
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
           "_styles": {
-            ".card-block DIV": {
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
             },
-            ".card-block SPAN": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            ".navbar-caption": {
+              "color": "#ffffff"
             },
-            ".card-block P": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-2",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/lovely-familiy-in-flat-design-23-2147526983-128x128-71.jpg",
+              "height": 128,
+              "alt": "कुंटुंब",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">कुंटुंब</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OVERVIEW</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">FEATURES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">HELP</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider3",
+          "_params": {
+            "autoplay": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "timeout": 5,
+            "slides": [
+              {
+                "active": true,
+                "image": "@THEME_PATH@/components/_images/slider/man-back.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "IMAGE SLIDER",
+                "showText": true,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@THEME_PATH@/components/_images/slider/bridge.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "left",
+                "showTitle": true,
+                "title": "BACKGROUND VIDEO",
+                "showText": true,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@THEME_PATH@/components/_images/slider/sparklers.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "right",
+                "showTitle": true,
+                "title": "BOOTSTRAP SLIDER",
+                "showText": true,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ],
+            "fullScreen": false,
+            "bgColor": "#fff",
+            "showBullets": true
+          },
+          "_anchor": "slider3-5",
+          "articleLayout": false
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "map1",
+          "_anchor": "map1-6",
+          "_params": {
+            "googleMap": {
+              "address": "penkarpada",
+              "placeId": "ChIJ4-S-8POw5zsRqcwjw9sdJf4",
+              "state": "ok",
+              "stateDetails": ""
             }
           }
         }
