@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "inde.html",
+    "currentPage": "index.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -25,7 +25,7 @@
     "versionPublish": "3.10.3"
   },
   "pages": {
-    "index.html": {
+    "index1.html": {
       "settings": {
         "main": true,
         "title": "",
@@ -243,8 +243,11 @@
         }
       ]
     },
-    "inde.html": {
-      "settings": {},
+    "index.html": {
+      "settings": {
+        "title": "google",
+        "meta_descr": ""
+      },
       "components": [
         {
           "_tags": [
