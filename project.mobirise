@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "1.html",
+    "currentPage": "index.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -21,7 +21,7 @@
       }
     },
     "versionFirst": "3.10.3",
-    "uniqCompNum": 7,
+    "uniqCompNum": 8,
     "versionPublish": "3.10.3"
   },
   "pages": {
@@ -225,6 +225,21 @@
           },
           "title": "आपले कुंटुंब",
           "subtitle": "\"\""
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "map1",
+          "_anchor": "map1-7",
+          "_params": {
+            "googleMap": {
+              "address": "penkarpada",
+              "placeId": "ChIJ4-S-8POw5zsRqcwjw9sdJf4",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          }
         }
       ]
     },
